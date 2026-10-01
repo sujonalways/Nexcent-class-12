@@ -1,0 +1,134 @@
+@media (max-width:576px) {
+    .container {
+        width: 100%;
+    }
+
+    #nav .row .menu,
+    #nav .row .sign_up {
+        display: none;
+    }
+
+    #nav .row span {
+        display: block;
+
+    }
+
+    #nav .container {
+        box-shadow: 0 2px 4px 0 rgb(15, 65, 115);
+        padding: 20px;
+    }
+
+    /* --hero-- */
+    #hero .content {
+        width: 100%;
+    }
+
+    #hero .row {
+        padding: 30px;
+    }
+
+    #hero .content h4 {
+        font-size: 36px;
+    }
+
+    #hero .content p {
+        font-size: 11px;
+    }
+
+    #hero .content p {
+
+        font-size: 12px;
+    }
+
+    #hero .img {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #hero .img img {
+        width: 80%;
+    }
+
+    /* --clients-- */
+    #clients .content {
+        padding: 0 10px;
+    }
+
+    #clients .img {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        padding: 0 10px;
+
+    }
+
+    #clients .img img {
+        justify-content: space-between;
+
+    }
+
+    /* --community-- */
+    #community .content h4 {
+        font-size: 22px;
+    }
+
+    #community .card {
+        width: 100%;
+    }
+
+    /* -- more -- */
+    #more .img {
+        width: 100%;
+        text-align: center;
+    }
+
+    #more .img img {
+        width: 80%;
+    }
+
+    #more .content {
+        width: 100%;
+
+    }
+
+    #more .row h2 {
+        font-size: 25px;
+    }
+
+    #more .row p {
+        font-size: 10px;
+    }
+
+    #more .content a {
+        font-size: 13px;
+        padding: 14px 29px;
+    }
+
+    /* --counts-- */
+    #counter .content {
+        width: 100%;
+    }
+
+    #counter .content h4 {
+        font-size: 24px;
+    }
+
+    #counter .content p {
+        font-size: 14px;
+    }
+    
+/* --customer-- */
+#customer .img {
+    width: 100%
+}
+#customer .content {
+    width: 100%;
+}
+#customer .content p{
+    font-size: 12px;
+}
+#inf .row h4 {
+    font-size: 36px
+}
+}
